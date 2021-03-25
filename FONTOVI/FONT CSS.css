@@ -1,0 +1,49 @@
+/*
+roboto font
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;1,300&display=swap');
+
+
+
+@font-face {
+  font-family: 'CircularStd-Black';
+  src: 
+      url('1/CircularStd-Black.eot?#iefix') format('embedded-opentype'),  
+      url('1/CircularStd-Black.woff') format('woff'), 
+      url('1/CircularStd-Black.ttf')  format('truetype'), 
+      url('1/CircularStd-Black.svg#CircularStd-Black') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+@font-face {
+    font-family: 'CircularStd-Bold';
+    src: url('2/CircularStd-Bold.eot?#iefix') format('embedded-opentype'),  
+        url('2/CircularStd-Bold.woff') format('woff'), 
+        url('2/CircularStd-Bold.ttf')  format('truetype'), 
+        url('2/CircularStd-Bold.svg#CircularStd-Bold') format('svg');
+    font-weight: normal;
+    font-style: normal;}
+
+@font-face {
+  font-family: 'CircularStd-Book';
+  src: url('3/CircularStd-Book.eot?#iefix') format('embedded-opentype'),
+      url('3/CircularStd-Book.woff') format('woff'),
+      url('3/CircularStd-Book.ttf')  format('truetype'),
+      url('3/CircularStd-Book.svg#CircularStd-Book') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+@font-face {
+  font-family: 'CircularStd-Medium';
+  src: url('4/CircularStd-Medium.eot?#iefix') format('embedded-opentype'),  
+      url('4/CircularStd-Medium.woff') format('woff'), 
+      url('4/CircularStd-Medium.ttf')  format('truetype'), 
+      url('4/CircularStd-Medium.svg#CircularStd-Medium') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}

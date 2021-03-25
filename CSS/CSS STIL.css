@@ -1,0 +1,280 @@
+img{max-width: 100%;}
+html{ font-size: 10px; }
+body{ font-size: 1.6rem;}
+*{box-sizing: border-box;
+-moz-box-sizing: border-box;
+-webkit-box-sizing: border-box;
+-ms-box-sizing: border-box;
+-o-box-sizing: border-box;
+margin: 0;
+}
+.container {
+    
+    width: 1160px;
+    margin: 0 auto;
+}
+.clearfix:after{
+    content: "";
+    display: table;
+    clear: both;
+
+}
+/* stilizovanje hedera*/
+
+header{
+  
+  background-color: #1D314E;
+  padding: 24px 0px;
+  
+}
+
+
+header .logo{
+    float: left;
+                   
+}
+
+header .header-aside{
+    float: right;
+}
+
+header .date{
+   font-family: 'CircularStd-Book';
+   font-size: 1.5rem ;
+   color: #586C88;
+   text-align: right;
+   letter-spacing: 0.11px;
+   margin-bottom: 19px;}
+   
+   
+   header .main-manu li{
+       float: left;
+       margin-right: 83px;
+       list-style: none;
+       
+   }
+   
+   header .main-manu li:last-of-type{
+       margin-right: 0px;
+   }
+   
+   header .main-manu li a{
+       text-decoration: none;
+       text-transform: uppercase;
+       color: #CDD9EB;
+       font-family: 'CircularStd-Book';
+       text-align: center;
+   letter-spacing: 0.11px;
+   margin-bottom: 15px;
+   }
+   
+   header .main-manu li a.active{
+       font-family: 'CircularStd-Black';
+       color: #FFF;
+   }
+   
+   
+   .section-one .background-text{
+       font-family: 'CircularStd-Book';
+       color: #CDD9EB;
+       font-size: 3rem;
+       font-style: normal;
+       text-align: center;
+       letter-spacing: 0;
+       line-height: 3.5rem;
+       margin-bottom: 13px;
+   }
+   
+   .section-one .background-text-lorem{
+       
+       color: #FFFFFF;
+       font-family: Roboto, Sans-serif;
+       font-size: 2rem;
+       letter-spacing: 0;
+       line-height: 3.5rem;
+       text-align: center;
+       margin-bottom: 39px;
+   }
+     
+   .section-one a.register{
+       font-family: 'CircularStd-Bold';
+       color: #CDD9EB;
+       font-family: "Circular Std";
+       font-size: 1.4rem;
+       letter-spacing: 0.1px;
+       line-height: 1.2rem;
+       text-align: center;
+       text-transform: uppercase;
+       text-decoration: none;
+       border: 2px solid #CDD9EB;
+       display: inline-block;
+       padding: 10px 30px;
+       
+   }
+
+   
+   .section-one {
+       padding: 168px 0px 177px 0px;
+       
+       text-align: center;
+       background-size: cover;
+       background-attachment: fix;
+       background-position: center center;
+       
+       
+   }
+   
+   .section-two{
+       background-color: #F1F6FF;
+       padding: 70px 0px ;
+   }
+   
+   .section-two .news{
+       float: left;
+       width:32%;
+       margin-right: 2%;
+   }
+   
+   .section-two .news:last-of-type{
+       margin-right: 0;
+   }
+   
+   .news a.news-item{
+       display: inline-block;
+       color: #ADB8C7;
+       font-family: "Circular Std";
+       font-size: 2rem;
+       font-weight: 300;
+
+       line-height: 3.5rem;
+       text-decoration: none;
+       margin-bottom: 18px;
+      
+   }
+ 
+   
+   .section-two .news .image img{
+       display: block;
+       width: 100%;
+       
+   }
+   
+   .section-two .news .image{
+       margin-bottom: 17px;
+   }
+   
+   .section-two .news .date-news {
+       color: #ADB8C7;
+       font-family: "Circular Std";
+       font-size: 1.4rem;
+       font-weight: 300;
+       letter-spacing: 1px;
+       line-height: 27px;
+       margin-bottom: 3px;
+   }
+   
+   .section-two .news .text-news{
+       color: #3B4D66;
+       font-family: Roboto, sans-serif;
+       font-size: 1.6rem;
+       letter-spacing: 0;
+       line-height: 22px;
+       margin-bottom: 21px;
+}
+.section-two .news a.read-more{
+    color: #586C88;
+    font-family: "Circular Std";
+    font-size: 1.4rem;
+    font-weight: 300;
+    letter-spacing: 0.1px;
+    line-height: 12px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.footer{
+    background-color: #1D314E;
+    padding: 70px 0px 62px;
+}
+
+.footer .footer-top .footer-info{
+    float: left;
+    width: 50%;
+}
+
+.footer .footer-top .footer-navigation{
+    float:left;
+    width: 25%;
+}
+
+.footer .footer-top .social{
+    float:left;
+    width:25%;
+}
+
+.footer .footer-top .logo{
+    display: block;
+    margin-bottom: 35px;
+    
+    
+}
+
+.footer .footer-top .footer-info p{
+    font-size: 1.4rem;
+    font-weight: 300;
+    letter-spacing: 0;
+    line-height:2.2rem;
+    color: #CDD9EB;
+    font-family: "Circular Std";
+    max-width: 274px;
+}
+.footer .footer-top .footer-manu li{
+    float:left;
+    width:50%;
+    list-style: none;
+}
+
+.footer .footer-navigation li a{
+    display:inline-block;
+    
+    color: #CDD9EB;
+    font-family: 'CircularStd-Medium';
+    font-size: 1.6rem;
+   
+    letter-spacing: 0.11px;
+    padding: 5px 0px;
+    text-decoration: none;
+    text-transform: uppercase;
+    border-bottom: 2px solid transparent;
+    margin-bottom: 20px;
+}
+.footer .footer-navigation li a.active{
+    border-bottom: 2px solid #ADB8C7;
+}
+.footer .footer-top .social{
+    text-align: right;
+}
+.footer .social a{
+    display: inline-block;
+    width: 33px;
+    height: 33px;
+    border-radius: 50%;
+    border: 1px solid #CDD9EB;
+    text-align: center;
+    line-height: 33px;
+    text-decoration: none;
+    color: #CDD9EB;
+    margin-right: 10px;
+    font-size:1.8rem;
+}
+
+.footer .footer-bottom .copyright{
+    color: #CDD9EB;
+  font-family: "Circular Std";
+  font-size: 12px;
+  font-weight: 300;
+  letter-spacing: -0.13px;
+  line-height: 15px;
+  text-align: right;
+  padding-right: 101px;
+}
